@@ -75,3 +75,27 @@ Pause and resume the virtual machine.
 **Result:** Pending verification.
 
 **Status:** Under investigation.
+
+
+
+
+
+### Test 01 - Pause and Resume Virtual Machine
+
+**Action performed:**
+Paused the Ubuntu Server virtual machine
+using VirtualBox and then resumed execution.
+
+**Result: SUCCESS**
+
+The system continued its boot process and
+successfully displayed the Ubuntu Server
+language selection screen.
+
+**Observation:**
+The workaround restored progress during
+installation, but the underlying cause of
+the initial freeze has not been confirmed.
+
+**Status:** Boot workaround successful.
+Ubuntu Server installation in progress.
