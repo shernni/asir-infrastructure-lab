@@ -29,3 +29,49 @@ networking, and MySQL.
 - [ ] Verify system installation
 - [ ] Configure networking
 - [ ] Install MySQL
+
+
+## Troubleshooting
+
+### Multipath warning during boot
+
+During the initial Ubuntu Server boot,
+the following error was observed:
+
+ERROR: bad settings in read-only bindings file
+/etc/multipath/bindings
+
+The error appears to affect the multipath
+storage component during early boot.
+
+Status: Under investigation.
+
+Next step: Verify whether the Ubuntu Server
+installer starts successfully.
+
+
+## Troubleshooting
+
+### Issue 01 - Ubuntu Server boot freeze
+
+**Environment:** Ubuntu Server 26.04.1 LTS
+running in Oracle VirtualBox.
+
+**Observed behavior:**
+The installation process stopped at:
+
+`Begin: Loading essential drivers ...`
+
+A multipath configuration error was also
+displayed during startup.
+
+**Investigation:**
+Similar boot freezes have been reported
+with VirtualBox and Ubuntu.
+
+**Test 01:**
+Pause and resume the virtual machine.
+
+**Result:** Pending verification.
+
+**Status:** Under investigation.
